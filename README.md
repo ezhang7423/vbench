@@ -9,23 +9,23 @@ run on
 - WSL ubuntu on Win 10
 
 compile cpp command:
-make [prog] && ./prog
+g++ -O3 -o {prog} {prog}.cpp
 
 compile v command:
-v -prod [prog] && ./prog
+v -prod {prog}
 
 ## RESULTS:
 
 - sortandprint:
 
 cpp:
-real 0m0.747s
-user 0m0.641s
-sys 0m0.109s
+real 0m0.282s
+user 0m0.094s
+sys 0m0.172s
 
 vlang:
 real 0m0.276s
 user 0m0.109s
 sys 0m0.125s
 
-Vlang is six times faster.
+C++ is not significantly faster.

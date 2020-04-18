@@ -3,6 +3,7 @@ size := 10000
 var smallest := 0
 var index := 0
 var tmp := 0
+
 for i := 0; i < size; i++ {	
 	c << size - i
 }
